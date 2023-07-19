@@ -1,0 +1,45 @@
+/* reset css*/
+@import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css');
+
+
+
+*{
+    /* 패딩으로 인한 박스 사이즈 크기 변하는걸 방지 */
+    box-sizing: border-box;
+}
+a{
+    /* 색을 부모에게 받아오기 */
+    color: inherit;
+    /* 밑줄제거 */
+    text-decoration: none;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.btn{
+    background: #fff;
+    color: #333;
+    font: inherit;
+    border-radius: 7px;
+    border: 2px solid #ededed;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #666;
+    color: #fff;
+}
+
+.btn-red{
+    background: #ff2e2e;
+    color: #fff;
+    border: 2px solid #fa1717;
+}
+.btn-red:hover{
+    background: #fff;
+    color: #ff2e2e;
+}
