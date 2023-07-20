@@ -11,6 +11,28 @@ body{
     background: url(kane.jpg) no-repeat center/ cover;
 
     height: calc(100vh - 97px);
+    margin: 97px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#product-overview h2{
+    font-size: 58px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
+    animation: drop 2s linear;
+}
+@keyframes drop{
+    0%{
+        transform: translate(0, -1000px);
+    }
+    70%{
+        transform: translate(0, 30px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
 }
 
 /* choose plan style */
