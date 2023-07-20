@@ -14,7 +14,7 @@ body{
 
 /* Header Style */
 header{
-    background: orange;
+    /* background: orange; */
     padding: 20px 0;
     position: fixed;
     width: 100%;
@@ -64,5 +64,42 @@ header .inner-header .menu-open .lnr-menu{
 }
 
 header .gnb{
-    display: none;
+    background: #000;
+    color: #666;
+    font-weight: 700;
+    font-size: 40px;
+    position: fixed;
+
+    /* 화면 길이 100퍼센트 라는뜻 */
+    height: 100vh;
+    padding: 70px 100px;
+    right: -100%;
+    top: 0;
+
+    display: flex;
+    flex-flow: row-reverse;
+
+    transition: 0.8s;
+}
+
+header .gnb.open{
+    right: 0;
+}
+
+header .gnb .close{
+    color: #fff;
+    margin-left: 120px;
+}
+
+header .gnb ul{
+    line-height: 1.7;
+}
+
+header .gnb ul li:hover{
+    color: #fff;
+
+}
+
+header .gnb ul li.active{
+    color: #fff;
 }
