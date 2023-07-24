@@ -1,6 +1,6 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-
+@import url('main-tablet.css')
 
 @import url('../../common.css');
 
@@ -362,4 +362,24 @@ footer .go-top{
     position: fixed;
     right: 50px;    
     bottom: 60px;
+<<<<<<< Updated upstream
 }
+=======
+<<<<<<< Updated upstream
+}
+
+=======
+<<<<<<< Updated upstream
+=======
+}
+
+
+/* 1024해상도 태블릿 */
+@media screen and (max-width: 1024px) {
+    #product-overview{
+        height: calc(50vh - 97px);
+    }
+>>>>>>> Stashed changes
+}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
